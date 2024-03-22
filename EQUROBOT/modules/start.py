@@ -7,7 +7,7 @@ from EQUROBOT import app
 
 
 START_TEXT = """
-ʜɪ ,
+𝗛𝗶 ,
 
 𝗜 𝗔𝗺 , 
 𝗬𝗼𝘂𝗿 𝗔𝗜 𝗖𝗼𝗺𝗽𝗮𝗻𝗶𝗼𝗻. 
@@ -19,7 +19,7 @@ START_TEXT = """
 
 
 
-@app.on_message(filters.command("start") & filters.private)
+@app.on_message(filters.command("Coder") & filters.private)
 async def start(client, message):
     buttons = [
         [
