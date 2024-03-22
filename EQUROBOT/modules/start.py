@@ -19,7 +19,7 @@ START_TEXT = """
 
 
 
-@app.on_message(filters.command("Coder") & filters.private)
+@app.on_message(filters.command("coder") & filters.private)
 async def start(client, message):
     buttons = [
         [
